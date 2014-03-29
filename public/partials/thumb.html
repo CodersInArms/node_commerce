@@ -1,0 +1,11 @@
+<div style="padding: 20px" ng-controller="PhoneCtrl"
+     ng-repeat="phone in phones" class="col-md-3">
+    <div id="thumbnail{{phone.id}}" style="outline: 1px solid #000000; box-shadow: 2px"
+            class="thumbnail over">
+    <p style="text-align: center; font-weight: bolder; font-size: medium;">
+        {{phone.name}}</p>
+        <img class="img-responsive center-block" style="padding-bottom: 5px;" src={{phone.img}} alt=""/>
+    <br/>
+    <p style="text-align: center; font-weight: bold">{{phone.price | currency}}</p>
+    </div>
+</div>
