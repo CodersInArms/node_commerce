@@ -1,13 +1,17 @@
 <div style="padding: 20px" ng-controller="PhoneCtrl" class="col-md-3">
-    <div id="thumbnail{{phone.id}}" style="outline: 1px solid #000000; box-shadow: 2px"
-         class="thumbnail over"
-            onmouseover="outlineMouseOver(this.id);" onmouseout="outlineMouseOut(this.id)">
-        <div>
-        <p style="text-align: center; font-weight: bolder; font-size: medium;">
-        {{phone.name}}</p>
-        <img class="img-responsive center-block" style="padding-bottom: 5px;" src={{phone.img}} alt=""/>
-        <br/>
-        <p style="text-align: center; font-weight: bold">{{phone.price | currency}}</p>
+
+    <a ng-href="/#/phones/{{phone.id}}">
+        <div id="thumbnail{{phone.id}}" style="outline: 1px solid #000000; box-shadow: 2px"
+             class="thumbnail over"
+                onmouseover="outlineMouseOver(this.id);" onmouseout="outlineMouseOut(this.id)">
+            <div>
+            <p style="text-align: center; font-weight: bolder; font-size: medium;">
+            {{phone.name}}</p>
+            <img class="img-responsive center-block" style="padding-bottom: 5px;" ng-src={{phone.img}} alt=""/>
+            <br/>
+            <p style="text-align: center; font-weight: bold">{{phone.price | currency}}</p>
+            </div>
         </div>
-    </div>
+    </a>
+
 </div>

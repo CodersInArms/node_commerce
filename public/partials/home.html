@@ -1,0 +1,5 @@
+<div class="container" ng-controller="PhoneCtrl">
+    <div ng-repeat="phone in phones | filter : phoneSearch">
+        <div ng-include="thumb"></div>
+    </div>
+</div>

@@ -6,11 +6,18 @@ var app = express();
 
 app.use(express.static(__dirname + "/public"));
 
+app.set('title', 'Angular E-commerce');
+
 app.use(app.router);
-app.get('/', function(request, response){
-    response.send("Hey!");
-});
 
 app.listen(1337);
+
+app.get('/', function(request, response){
+    response.sendfile('public/index.html');
+});
+
+app.get('/index.html', function(request, response){
+    response.setHeader("Location", "/");
+});
 
 console.log("Listening at port 1337");

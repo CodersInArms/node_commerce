@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="phone">
+<head>
+    <title>Angular E-Commerce</title>
+    <script type="text/javascript" src="lib/angular/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="lib/angular/angular-resource.min.js"></script>
+    <script type="application/javascript" src="app.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
+    <script type="text/javascript">
+        function outlineMouseOver(id){
+            document.getElementById(id).style.outline = "2px solid #FF1B00";
+        }
+        function outlineMouseOut(id){
+            document.getElementById(id).style.outline = "1px solid #000000";
+        }
+    </script>
+    <script type="text/css">
+        div .over:hover{
+            outline: 2px solid #FF1B00;
+        }
+    </script>
+
+</head>
+<body>
+<h1 class="text-center">Buy Mobiles</h1>
+<div class="container-fluid row">
+    <div class="col-md-offset-3 col-md-4">
+    <ul class="nav nav-pills">
+        <li><a href="/#/"><strong>Home</strong></a></li>
+        <li><a href="#/compare"><strong>Compare</strong></a></li>
+    </ul>
+    </div>
+    <div ng-controller="PhoneCtrl">
+        <input style="width: 20%" class="col-md-offset-1 col-md-3 form-control"
+               type="text" name="search" ng-model="phoneSearch" placeholder="Search..."/>
+    </div>
+</div>
+<br/><br/>
+
+<div ng-view></div>
+</body>
+</html>
