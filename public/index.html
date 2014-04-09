@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html ng-app="phone">
+<html ng-app="phoneApp">
 <head>
     <title>Angular E-Commerce</title>
     <script type="text/javascript" src="lib/angular/angular.min.js"></script>
     <script type="text/javascript" src="lib/angular/angular-route.min.js"></script>
     <script type="text/javascript" src="lib/angular/angular-resource.min.js"></script>
-    <script type="application/javascript" src="app.js"></script>
-    <script src="lib/angular/angular-route.min.js"></script>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/controllers/phoneCtrl.js"></script>
+    <script type="text/javascript" src="js/services/PhoneData.js"></script>
+
     <link rel="stylesheet" href="lib/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="lib/css/search.css"/>
+
     <script type="text/javascript">
         function outlineMouseOver(id){
             document.getElementById(id).style.outline = "2px solid #FF1B00";
@@ -32,12 +37,14 @@
         <li><a href="#/compare"><strong>Compare</strong></a></li>
     </ul>
     </div>
-    <div ng-controller="PhoneCtrl">
-        <input style="width: 20%" class="col-md-offset-1 col-md-3 form-control"
+
+    <div class="col-md-offset-1 col-md-3" ng-controller="PhoneCtrl">
+        <input style="width: 100%; border: 1px solid #adadad" class="form-control"
                type="text" name="search" ng-model="phoneSearch" placeholder="Search..."/>
+        <div ng-include="searchDropDown"></div>
     </div>
 </div>
-<br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
 
 <div ng-view></div>
 </body>

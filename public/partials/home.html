@@ -1,5 +1,12 @@
 <div class="container" ng-controller="PhoneCtrl">
-    <div ng-repeat="phone in phones | filter : phoneSearch">
+    <div ng-repeat="phone in phones | limitTo : numberOfPhones">
         <div ng-include="thumb"></div>
+    </div>
+    <div>
+        <div class="container">
+            <button style="width: 97%" type="button" class="btn btn-block" ng-click="showMore()">
+                Load More Products
+            </button>
+        </div>
     </div>
 </div>
