@@ -1,0 +1,8 @@
+{
+    "id": "NXS5",
+    "img": "../images/NXS5.jpg",
+    "name": "Nexus 5",
+    "price": 29000,
+    "camera": "8 megapixel",
+    "secondary": true
+}

@@ -1,5 +1,5 @@
-{
-    "NXS5": {
+[
+    {
         "id": "NXS5",
         "img": "../images/NXS5.jpg",
         "name": "Nexus 5",
@@ -8,7 +8,7 @@
         "secondary": true
     },
 
-    "MTG": {
+    {
         "id": "MTG",
         "img": "../images/MTG.jpg",
         "name": "Moto G",
@@ -17,7 +17,7 @@
         "secondary": true
     },
 
-    "XPZ": {
+    {
         "id": "XPZ",
         "img": "../images/XPZ.jpg",
         "name": "Sony Xperia Z",
@@ -26,7 +26,7 @@
         "secondary": true
     },
 
-    "CPL2": {
+    {
         "id": "CPL2",
         "img": "../images/CPL2.jpg",
         "name": "Canvas Plus 2",
@@ -35,7 +35,7 @@
         "secondary": true
     },
 
-    "MTX": {
+    {
         "id": "MTX",
         "img": "../images/MTX.jpg",
         "name": "Moto X",
@@ -44,7 +44,7 @@
         "secondary": true
     },
 
-    "NL520": {
+    {
         "id": "NL520",
         "img": "../images/NL520.jpg",
         "name": "Nokia Lumia 520",
@@ -53,7 +53,7 @@
         "secondary": false
     },
 
-    "XPM": {
+    {
         "id": "XPM",
         "img": "../images/XPM.jpg",
         "name": "Sony Xperia M",
@@ -62,7 +62,7 @@
         "secondary": true
     },
 
-    "HTC700": {
+    {
         "id": "HTC700",
         "img": "../images/HTC700.jpg",
         "name": "HTC Desire 700",
@@ -71,7 +71,7 @@
         "secondary": true
     },
 
-    "LGGP": {
+    {
         "id": "LGGP",
         "img": "../images/LGGP.jpg",
         "name": "LG G Pro",
@@ -80,7 +80,7 @@
         "secondary": true
     },
 
-    "APL5S": {
+    {
         "id": "APL5S",
         "img": "../images/APL5S.jpg",
         "name": "Apple iPhone 5S",
@@ -88,4 +88,4 @@
         "camera": "8 megapixel",
         "secondary": true
     }
-}
+]

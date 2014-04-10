@@ -1,0 +1,9 @@
+{
+    "id": "APL5S",
+    "img": "../images/APL5S.jpg",
+    "name": "Apple iPhone 5S",
+    "price": "52000",
+    "camera": "8 megapixel",
+    "secondary": true,
+    "url": "/#/phones/APL5S"
+}

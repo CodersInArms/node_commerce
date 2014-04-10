@@ -1,5 +1,8 @@
 app.controller('PhoneCtrl', function($scope, phoneData){
-    $scope.phones = phoneData.phones;
+
+    phoneData.phonesData(function(phones){
+        $scope.phones = phones
+    });
 
     $scope.currentPhone = null;
     $scope.setPhone = function (id){
@@ -13,6 +16,10 @@ app.controller('PhoneCtrl', function($scope, phoneData){
 
     $scope.showMore = function(){
         $scope.numberOfPhones += 4;
+    };
+
+    $scope.clearSearch = function(){
+        $scope.phoneSearch = null;
     };
 
     $scope.phoneSearch = null;

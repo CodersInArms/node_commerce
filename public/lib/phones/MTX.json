@@ -1,0 +1,8 @@
+{
+    "id": "MTX",
+    "img": "../images/MTX.jpg",
+    "name": "Moto X",
+    "price": "24000",
+    "camera": "10 megapixel",
+    "secondary": true
+}

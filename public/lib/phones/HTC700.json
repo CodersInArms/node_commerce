@@ -1,0 +1,8 @@
+{
+    "id": "HTC700",
+    "img": "../images/HTC700.jpg",
+    "name": "HTC Desire 700",
+    "price": "23000",
+    "camera": "12 megapixel",
+    "secondary": true
+}

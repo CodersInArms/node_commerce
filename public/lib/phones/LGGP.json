@@ -1,0 +1,8 @@
+{
+    "id": "LGGP",
+    "img": "../images/LGGP.jpg",
+    "name": "LG G Pro",
+    "price": "29000",
+    "camera": "13 megapixel",
+    "secondary": true
+}

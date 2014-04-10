@@ -1,0 +1,8 @@
+{
+    "id": "CPL2",
+    "img": "../images/CPL2.jpg",
+    "name": "Canvas Plus 2",
+    "price": "9200",
+    "camera": "8 megapixel",
+    "secondary": true
+}

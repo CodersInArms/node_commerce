@@ -5,7 +5,16 @@
                 {{phoneSearch}}
             </span>
     <br/>
-    <p style="font-size: small" ng-repeat="phone in phones | filter : phoneSearch">
-        {{phone.name}}
-    </p>
+
+        <div id="{{$index}}" style="font-size: medium"
+           onmouseover="this.style.backgroundColor = '#5bc0de';
+                        this.style.textDecorationColor = 'white';"
+           onmouseout="this.style.backgroundColor = 'white'"
+           ng-click="clearSearch()"
+           ng-repeat="phone in phones | filter : phoneSearch">
+            <a ng-href="#/phones/{{phone.id}}">
+                {{phone.name}}
+            </a>
+        </div>
+
 </div>

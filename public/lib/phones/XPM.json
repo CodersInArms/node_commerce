@@ -1,0 +1,8 @@
+{
+    "id": "XPM",
+    "img": "../images/XPM.jpg",
+    "name": "Sony Xperia M",
+    "price": "12300",
+    "camera": "5 megapixel",
+    "secondary": true
+}

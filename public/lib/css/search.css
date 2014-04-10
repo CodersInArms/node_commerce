@@ -1,9 +1,0 @@
-#suggestions {
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    width: 460px;
-    background-color: #999;
-    position: fixed;
-    padding: 5px;
-    visibility: hidden;
-}

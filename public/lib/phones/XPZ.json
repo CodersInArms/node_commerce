@@ -1,0 +1,8 @@
+{
+    "id": "XPZ",
+    "img": "../images/XPZ.jpg",
+    "name": "Sony Xperia Z",
+    "price": 27000,
+    "camera": "8 megapixel",
+    "secondary": true
+}

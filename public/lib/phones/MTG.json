@@ -1,0 +1,8 @@
+{
+    "id": "MTG",
+    "img": "../images/MTG.jpg",
+    "name": "Moto G",
+    "price": 14000,
+    "camera": "5 megapixel",
+    "secondary": true
+}
