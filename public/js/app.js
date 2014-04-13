@@ -2,7 +2,7 @@ var app = angular.module('phoneApp', ['ngRoute']);
 
 app.config(phoneRouter);
 
-function phoneRouter($routeProvider, $locationProvider){
+function phoneRouter($routeProvider){
     $routeProvider
         .when('/', {templateUrl:'partials/home.html'})
         .when('/phones/:phoneId', {templateUrl:'partials/phone.html',
