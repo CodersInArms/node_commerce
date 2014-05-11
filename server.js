@@ -10,7 +10,10 @@ app.set('title', 'Angular E-commerce');
 
 app.use(app.router);
 
-app.listen(5000);
+var port = Number(process.env.PORT || 5000);
+app.listen(port, function() {
+  console.log("Listening on " + port);
+});
 
 app.get('/', function(request, response){
     response.sendfile('public/index.html');
@@ -19,5 +22,3 @@ app.get('/', function(request, response){
 app.get('/index.html', function(request, response){
     response.setHeader("Location", "/");
 });
-
-console.log("Listening at port 5000");
