@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/CodersInArms/node_commerce/issues"
   },
-  "homepage": "https://github.com/CodersInArms/node_commerce"
+  "homepage": "https://github.com/CodersInArms/node_commerce",
+  "engines": {
+    "node": "0.10.x"
+  }
 }
