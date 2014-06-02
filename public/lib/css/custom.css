@@ -1,0 +1,7 @@
+div .over:hover{
+    outline: 2px solid #FF1B00;
+}
+
+body {
+    margin-top: 70px;
+}

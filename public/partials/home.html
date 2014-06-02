@@ -1,10 +1,10 @@
-<div class="container" ng-controller="PhoneCtrl">
+<div class="" ng-controller="PhoneCtrl">
     <div ng-repeat="phone in phones | limitTo : numberOfPhones">
         <div ng-include="thumb"></div>
     </div>
     <div>
-        <div class="container">
-            <button style="width: 97%" type="button" class="btn btn-block" ng-click="showMore()">
+        <div class="">
+            <button style="" ng-disabled="more()" type="button" class="btn btn-primary btn-group-justified" ng-click="showMore()">
                 Load More Products
             </button>
         </div>

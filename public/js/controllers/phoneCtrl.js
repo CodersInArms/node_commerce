@@ -22,6 +22,10 @@ app.controller('PhoneCtrl', function($scope, phoneData){
         $scope.phoneSearch = null;
     };
 
+    $scope.more = function(){
+        return ($scope.numberOfPhones == 12);
+    };
+
     $scope.phoneSearch = null;
 
 });
